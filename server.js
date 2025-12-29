@@ -22,7 +22,7 @@ app.use('/api', require('./routes/rootRoute'));
 
 // MongoDB Connection
 mongoose
-    .connect('mongodb+srv://gopisingh8741_db_user:feYo5avHsUyWh1vi@cluster0.lrwuzif.mongodb.net/main')
+    .connect('mongodb+srv://gopisingh8741_db_user:feYo5avHsUyWh1vi@cluster0.lrwuzif.mongodb.net/live_db')
     .then(() => console.log('MongoDB Connected'))
     .catch((err) => console.log(err));
 
